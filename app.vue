@@ -1,6 +1,6 @@
 <script setup lang="ts">
 useHead({
-  title: 'Koijs',
+  title: 'Qr',
 })
 </script>
 
