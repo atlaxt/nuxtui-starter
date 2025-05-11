@@ -5,7 +5,11 @@ definePageMeta({
 </script>
 
 <template>
-  <div class="">
-    home
-  </div>
+  <NuxtLayout>
+    <div class="flex flex-col gap-24 p-24">
+      <ToggleLanguage />
+      <ToggleTheme variant="button" />
+      <ToggleTheme variant="menu" />
+    </div>
+  </NuxtLayout>
 </template>

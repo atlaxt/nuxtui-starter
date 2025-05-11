@@ -1,10 +1,13 @@
 <script setup lang="ts">
+useHead({
+  title: 'Nuxt Starter',
+})
 </script>
 
 <template>
-  <NuxtLayout>
+  <UiApp>
     <NuxtPage />
-  </NuxtLayout>
+  </UiApp>
 </template>
 
 <style>
