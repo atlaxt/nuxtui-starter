@@ -1,39 +1,75 @@
-# QR Generator
+# Nuxt Minimal Starter
 
-This project is a web application that allows you to generate custom QR codes. With its user-friendly interface, you can quickly and easily create QR codes.
+Look at the [Nuxt documentation](https://nuxt.com/docs/getting-started/introduction) to learn more.
 
-🔗 **Live Demo:** [qr.atlasyigitaydin.com](https://qr.atlasyigitaydin.com/)
+## Setup
 
-## 🚀 Features
-- 📌 Generate QR codes with custom data input
-- 🎨 Customizable design options
-- ⚡ Fast and mobile-friendly
+Make sure to install dependencies:
 
-## 📦 Installation
-To run the project locally, follow these steps:
-
-### 1️⃣ Clone the Repository
-```sh
-git clone https://github.com/kullaniciadi/qr-generator.git
-cd qr-generator
-```
-
-### 2️⃣ Install Dependencies
-```sh
+```bash
+# npm
 npm install
+
+# pnpm
+pnpm install
+
+# yarn
+yarn install
+
+# bun
+bun install
 ```
 
-### 3️⃣ Run in Development Mode
-```sh
+## Development Server
+
+Start the development server on `http://localhost:3000`:
+
+```bash
+# npm
 npm run dev
+
+# pnpm
+pnpm dev
+
+# yarn
+yarn dev
+
+# bun
+bun run dev
 ```
 
-## 🎭 Usage
-1. Enter text or URL information.
-2. Instantly preview your QR code.
+## Production
 
-## 🤝 Contributing
-If you would like to contribute, please submit a **Pull Request** or open an **Issue** to provide feedback.
+Build the application for production:
 
-## 📄 License
-This project is licensed under the MIT License. For more information, see the [LICENSE](LICENSE) file.
+```bash
+# npm
+npm run build
+
+# pnpm
+pnpm build
+
+# yarn
+yarn build
+
+# bun
+bun run build
+```
+
+Locally preview production build:
+
+```bash
+# npm
+npm run preview
+
+# pnpm
+pnpm preview
+
+# yarn
+yarn preview
+
+# bun
+bun run preview
+```
+
+Check out the [deployment documentation](https://nuxt.com/docs/getting-started/deployment) for more information.
