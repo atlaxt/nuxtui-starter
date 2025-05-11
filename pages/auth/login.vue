@@ -43,10 +43,12 @@ async function onSubmit(event: FormSubmitEvent<Schema>) {
       <UiInput v-model="state.password" size="xl" class="w-full" type="password" />
     </UiFormField>
 
+    <UiCheckbox :label="t('auth.remember_me')" />
+
     <UiButton trailing-icon="lucide:arrow-right" :label="t('auth.login')" block size="xl" type="submit" />
     <UiButton class="mt-6" trailing-icon="logos:google-icon" variant="soft" :label="t('auth.sign_in_with', { provider: 'Google' })" block size="xl" type="submit" />
     <UiButton trailing-icon="logos:facebook" variant="soft" :label="t('auth.sign_in_with', { provider: 'Facebook' })" block size="xl" type="submit" />
-    <div class="w-full text-center">
+    <div class="w-full">
       <span class="whitespace-nowrap text-sm"> {{ t('auth.dont_have_an_account') }} <RouterLink :to="{ name: 'register' }" class="font-bold hover:underline">  {{ t('auth.sign_up_its_free') }} </RouterLink> </span>
     </div>
   </UiForm>

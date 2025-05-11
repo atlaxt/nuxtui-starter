@@ -5,6 +5,7 @@ const { locales, setLocale, locale } = useI18n()
 <template>
   <UiSelectMenu
     v-model="locale"
+    variant="soft"
     class="w-36"
     :search-input="false"
     :items="locales"
