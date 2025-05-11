@@ -2,6 +2,7 @@
 definePageMeta({
   name: 'home',
 })
+const authStore = useAuthStore()
 </script>
 
 <template>
@@ -10,6 +11,13 @@ definePageMeta({
       <ToggleLanguage />
       <ToggleTheme variant="button" />
       <ToggleTheme variant="menu" />
+
+      <UiButton
+        label="Logout" @click="() => {
+          authStore.logout()
+          navigateTo({ name: 'login' })
+        }"
+      />
     </div>
   </NuxtLayout>
 </template>

@@ -1,3 +1,15 @@
 {
-  "welcome": "Hoşgeldiniz"
+  "auth": {
+    "login": "Giriş Yap",
+    "logout": "Çıkış Yap",
+    "register": "Üyel Ol",
+    "sign_in_with": "{provider} İle Giriş Yap",
+    "dont_have_an_account": "Hesabınız yok mu?",
+    "sign_up_its_free": "Ücretsiz üye olun!",
+    "do_you_already_have_an_account": "Zaten bir hesabın var mı?"
+  },
+  "user": {
+    "username": "Kullanıcı Adı",
+    "password": "Parola"
+  }
 }

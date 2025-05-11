@@ -1,3 +1,4 @@
+import process from 'node:process'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineNuxtConfig({
@@ -5,6 +6,12 @@ export default defineNuxtConfig({
   devtools: { enabled: true },
   css: ['~/assets/css/main.css'],
   modules: ['@pinia/nuxt', '@nuxtjs/i18n', '@nuxt/fonts', '@nuxt/image', '@nuxt/ui'],
+  runtimeConfig: {
+    public: {
+      appName: process.env.NUXT_APP_APP_NAME,
+      creatorUrl: process.env.NUXT_APP_CREATOR_URL,
+    },
+  },
 
   vite: {
     plugins: [
@@ -22,6 +29,7 @@ export default defineNuxtConfig({
   },
 
   ui: {
+    fonts: false,
     prefix: 'Ui',
   },
 })

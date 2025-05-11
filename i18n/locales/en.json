@@ -1,3 +1,14 @@
 {
-  "welcome": "Welcome"
+  "auth": {
+    "login": "Log In",
+    "logout": "Log Out",
+    "sign_in_with": "Sign in with {provider}",
+    "dont_have_an_account": "Don't have an account?",
+    "sign_up_its_free": "Sign up, it's free!",
+    "do_you_already_have_an_account": "Do you already have an account?"
+  },
+  "user": {
+    "username": "Username",
+    "password": "Password"
+  }
 }

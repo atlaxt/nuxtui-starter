@@ -17,8 +17,8 @@ onMounted(() => mounted.value = true)
     <UiSelectMenu
       v-else
       class="w-36"
-      :model-value="(currentTheme as 'light' | 'dark' | 'system')"
       :search-input="false"
+      :model-value="(currentTheme as 'light' | 'dark' | 'system')"
       :items="[{
         label: 'Dark',
         icon: 'lucide:moon',

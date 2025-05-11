@@ -1,6 +1,7 @@
 <script setup lang="ts">
+const runtimeConfig = useRuntimeConfig()
 useHead({
-  title: 'Nuxt Starter',
+  title: `${runtimeConfig.public.appName} Template`,
 })
 </script>
 
@@ -12,6 +13,6 @@ useHead({
 
 <style>
 div {
-    font-family: Inter, sans-serif;
+    font-family: Poppins, sans-serif;
 }
 </style>

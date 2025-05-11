@@ -4,3 +4,8 @@
 @import "./scrollbar.css";
 
 @custom-variant dark (&:where(.dark, .dark *));
+
+:root {
+    --ui-radius: 0.25rem;
+  }
+  
