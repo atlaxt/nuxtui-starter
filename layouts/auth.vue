@@ -29,9 +29,9 @@ onMounted(() => mounted.value = true)
           </div>
         </div>
         <div class="flex flex-row items-center gap-2 absolute top-2 right-2">
+          <ToggleLanguage class="sm:fixed sm:right-2 sm:top-2" />
           <ToggleTheme variant="button" />
         </div>
-        <ToggleLanguage class="fixed right-2 top-2" />
         <slot />
 
         <a class="flex items-end justify-between mt-8" :href="runtimeConfig.public.creatorUrl" target="_blank">

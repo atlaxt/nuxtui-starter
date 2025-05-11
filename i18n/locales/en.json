@@ -1,14 +1,22 @@
 {
+  "homepage": "Home",
+  "frameworks": "Plugins",
+  "extensions": "Extensions",
+  "recommend_extensions": "Recommended Extensions",
+  "components": "Components",
   "auth": {
     "login": "Log In",
     "logout": "Log Out",
+    "register": "Sign Up",
     "sign_in_with": "Sign in with {provider}",
     "dont_have_an_account": "Don't have an account?",
     "sign_up_its_free": "Sign up, it's free!",
-    "do_you_already_have_an_account": "Do you already have an account?"
+    "do_you_already_have_an_account": "Already have an account?",
+    "remember_me": "Remember me"
   },
   "user": {
     "username": "Username",
-    "password": "Password"
+    "password": "Password",
+    "profile": "Profile"
   }
 }
